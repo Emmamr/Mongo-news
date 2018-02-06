@@ -1,0 +1,27 @@
+{
+  "name": "mongo-news",
+  "version": "1.0.0",
+  "description": "An app that tells you the lates news and allows you to leave comments.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Emmamr/Mongo-news.git"
+  },
+  "author": "Emmanuel Mosqueda R",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Emmamr/Mongo-news/issues"
+  },
+  "homepage": "https://github.com/Emmamr/Mongo-news#readme",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "cheerio": "^1.0.0-rc.2",
+    "express": "^4.16.2",
+    "express-handlebars": "^3.0.0",
+    "mongoose": "^5.0.3",
+    "request": "^2.83.0"
+  }
+}
