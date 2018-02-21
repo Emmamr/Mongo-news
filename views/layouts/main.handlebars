@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+  <!-- optimize for mobile -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- materialize -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <!-- custom css -->
+  <link rel="stylesheet" href="/assets/css/style.css" type="text/css">
+  <!-- favicon -->
+  <link rel="shortcut icon" href="assets/images/formula1.jpeg" type="favicon.jpeg">
+  <title>Formula 1 News Scraper</title>
+</head>
+<body>
+  <!-- navbar -->
+  <header>
+    <nav>
+      <div class="nav-wrapper red darken-4">
+        <a href="/" class="brand-logo">Formula 1 News Scraper</a>
+        <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
+        <ul class="right hide-on-med-and-down">
+          <li><a href="/">Home</a></li>
+          <li><a href="/saved">Saved Articles</a></li>
+          <li><a href="/scrape">Scrape new articles!</a></li>
+        </ul>
+        <ul class="side-nav" id="mobile-demo">
+          <li><a href="/">Home</a></li>
+          <li><a href="/saved">Saved Articles</a></li>
+          <li><a href="/scrape">Scrape new articles!</a></li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+
+  <!-- content will come from other views -->
+  <main>
+    {{{ body }}}
+  </main>
+
+  <!-- footer -->
+  <footer class="page-footer red darken-4">
+    <div class="container center-align">
+      <div class="row">
+        <div class="col l6 s12">
+          <p class="grey-text text-lighten-4">© 2018 Emmanuel Mosqueda</p>
+        </div>
+        <div class="col l4 offset-l2 s12">
+          <ul>
+            <li><a class="grey-text text-lighten-3" href="https://github.com/Emmamr/Mongo-news" target="_blank">Github</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- link jquery, materialize js, custom js -->
+  <script src="https://code.jquery.com/jquery.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
+  <script src="/assets/js/app.js"></script>
+</body>
+</html>

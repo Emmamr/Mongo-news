@@ -1,0 +1,37 @@
+/* sticky footer */
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+  }
+  
+  main {
+    flex: 1 0 auto;
+  }
+  
+  .brand-logo {
+    margin-left: 15px;
+  }
+  
+  header, main, footer {
+    margin: 0px;
+    padding: 0px;
+  }
+  
+  div.col.s6.card-links {
+    padding: 0px;
+  }
+  
+  .parallax-container {
+    margin-bottom: 30px;
+    height: 80%;
+  }
+  
+  .header.center {
+    background-color: white;
+  }
+  
+  .intro-text {
+    color: white;
+    text-shadow: -1.5px 0 #546e7a, 0 1.5px #546e7a, 1.5px 0 #546e7a, 0 -1.5px #546e7a;
+  }
