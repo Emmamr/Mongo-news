@@ -23,8 +23,9 @@ body {
   }
   
   .parallax-container {
+    padding: 5%;
     margin-bottom: 30px;
-    height: 80%;
+    height: 100%;
   }
   
   .header.center {
@@ -34,4 +35,13 @@ body {
   .intro-text {
     color: white;
     text-shadow: -1.5px 0 #546e7a, 0 1.5px #546e7a, 1.5px 0 #546e7a, 0 -1.5px #546e7a;
+    font-family: 'Cuprum', sans-serif;
+  }
+  .link-landing{
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 3px;
+    padding-left: 3px;
+    background-color: red;
+    align-self: auto;
   }
